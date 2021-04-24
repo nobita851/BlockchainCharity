@@ -3,13 +3,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/:CampaignFactory.json');
 
-//require('dotenv').config();
 
-// const OPTIONS = {
-//     defaultBlock: 'latest',
-//     transactionConfirmationBlocks: 1,
-//     transactionBlockTimeout: 8
-// }
 const provider = new HDWalletProvider(
 	"answer alien ethics client trophy certain sunny property veteran gown salad poet",
     "https://rinkeby.infura.io/v3/0417fceb8b29486daf83372d30b429e8"
